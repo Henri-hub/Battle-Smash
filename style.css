@@ -1,0 +1,331 @@
+/*INFORMATION
+-Battle Smash Days
+-VERSION: 1.5.0
+-Auteur : Henri et Adeline
+*/
+
+/* colors
+-default body text font  - black
+-h1      
+-h2        #D46A02 et black
+-h3         black
+-h4         black
+-button #D46A02
+-card-body #003444
+-icon  #3b5999
+
+*/
+
+/* FONTS
+-default   - Lato 
+-h1        - Archivo Black
+*/
+
+
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(236, 225, 245);
+}
+
+h2 {
+  font-family: 'Righteous', serif;
+  color: #FF4500;
+}
+
+hr {
+  width: 100px;
+  height: 3px;
+  background-color: #003444;
+  margin: auto;
+}
+
+p {
+  font-family: 'Lato', serif;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #FF4500;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* <!-- BANNIERE 
+  ===================--> */
+
+#home {
+  background: url('./images/banniere_accueil.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  height: 800px;
+}
+
+#home h1 {
+  font-family: 'Archivo Black', serif;
+  font-size: 120px;
+  line-height: 120px;
+  letter-spacing: -10px;
+  color: #fff
+}
+
+#home p {
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* <!-- NAVBAR 
+  ===================--> */
+
+.navbar a {
+  font-family: 'Lato';
+  font-size: 25px;
+  margin-right: px;
+  color: black;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+nav a:hover {
+  border-left: 3px solid #FF4500;
+}
+
+/* INTRODUCTION 
+  =============================*/
+
+#intro h2,
+p {
+  line-height: 0.9;
+}
+
+#intro h2 {
+  color: black;
+}
+
+/* VISITE 
+  =============================*/
+
+.card-body {
+  background-color: #003444;
+}
+
+.card a {
+  background-color: #003444;
+}
+
+.card a:hover {
+  color: #FF4500;
+}
+
+.card-container{
+  transition: 0.3s;
+}
+
+.card-container :hover{
+  transition: 0.3s;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* <!-- INFOS PRATIQUE
+  ===========================--> */
+
+#pratique {
+  background: url(./images/infospratiques.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#pratique i {
+  font-size: 90px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #003444;
+}
+
+#pratique p{
+  font-weight: bold;
+}
+
+
+/* <!-- SPONSORS 
+  =========================--> */
+
+.sponsor {
+  width: 90%;
+  margin: auto;
+}
+
+.sponsor img {
+  width: 100%;
+}
+
+/* <!-- PASS BILLETTERIE 
+  =========================-->  */
+
+.ticket img {
+  width: 50%;
+}
+
+.ticket p {
+  margin: 5px;
+}
+
+/* <!-- CONTACT 
+  =========================-->  */
+
+
+.facebook i {
+  color: #3b5999;
+}
+
+/* BANNIERE EQUIPE */
+
+.equipe {
+  padding: 0;
+}
+
+.equipe img {
+  width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  background-color: #003444;
+}
+
+.footer h5 {
+  color: #fff;
+}
+
+.footer p,
+i {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer img {
+  width: 60px;
+  height: 60px;
+}
+
+.foot {
+  text-align: center;
+  background-color: #003444;
+  padding-top: 10px;
+}
+
+.foot h5 {
+  color: #fff;
+}
+
+.foot p,
+i {
+  color: #fff;
+  font-size: 14px;
+}
+
+.foot img {
+  width: 60px;
+  height: 60px;
+}
+
+/* PAGE PROGRAMME 
+=========================*/
+
+#programme {
+  background: url('./images/programme.png');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+/* PAGE SALLE 
+=========================*/
+
+#salle {
+  background: url('./images/exposants.png');
+  background-size: cover;
+  background-position: bottom;
+  height: 60vh;
+}
+
+.plan img {
+  width: 80%;
+  margin: auto;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+/* PAGES INFOS PRATIQUES 
+=========================*/
+
+#map {
+  background: url('./images/banniere_infos.png');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.carte i {
+  font-size: 90px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #003444;
+}
+
+.carte p {
+  margin: 0;
+  font-weight: 200;
+}
+
+iframe {
+  margin-top: 20px;
+  margin-right: auto;
+}
+
+.info {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.retour {
+  margin-top: 40px;
+}
+
+.retour i {
+  color: #FF4500;
+}
+
+.retour a {
+  text-decoration: underline #FF4500;
+  color: black;
+  font-size: 20px;
+}
+
+@media (max-width: 800px) {
+  .ticket p {
+    text-align: center;
+  }
+
+  .ticket img {
+    margin-top: 20px;
+  }
+}
